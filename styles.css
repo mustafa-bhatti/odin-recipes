@@ -36,3 +36,23 @@ h2 {
 li {
     padding-bottom: 10px;
 }
+
+.recipe {
+    display: block;
+    margin-left: 100px;
+    margin-bottom: 15%;
+}
+
+.recipe img {
+    width: 300px;
+    height: auto;
+    padding: 0;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.recipe {
+    padding-right: 40px;
+    display:inline-block;
+    text-align: center;
+}
