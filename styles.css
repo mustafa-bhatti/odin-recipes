@@ -3,14 +3,36 @@ body {
     background-color: black;
     font-family:'Courier New', Courier, monospace;
     font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-style: double;
 }
 
 a {
     color: wheat;
+}
+img {
+    padding-left: 36%;
+    width: 400px;
+    height: auto;
 }
 
 .heading {
     text-align: center;
     font-size: 34px;
     text-decoration: underline;
+}
+
+h2 {
+    color: yellow;
+    font-size: 34px;
+}
+
+.text {
+    padding-right: 200px;
+}
+
+li {
+    padding-bottom: 10px;
 }
