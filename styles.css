@@ -70,3 +70,20 @@ li {
 
 }
 
+.flex-container{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    text-align: center ;
+}
+.flex-container img {
+    padding: 0;
+    width: 350px;
+    ;
+}
+
+.recipe,.recipe a {
+    background-color: darkred;
+}
