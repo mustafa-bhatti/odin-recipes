@@ -73,17 +73,28 @@ li {
 .flex-container{
     display: flex;
     width: 100%;
+    
     margin: 0;
-    padding: 0;
-    justify-content: space-between;
-    text-align: center ;
+    padding:0px;
+    /* justify-content: flex-start; */
+    text-align: center;
+    
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 40px;
 }
 .flex-container img {
     padding: 0;
-    width: 350px;
-    ;
+    width: 300px;
+    
+}
+
+.recipe {
+    padding-top: 10px ;
 }
 
 .recipe,.recipe a {
+    flex: 0;
     background-color: darkred;
 }
