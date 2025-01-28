@@ -80,7 +80,8 @@ li {
     text-align: center;
     
     /* flex-direction: row; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
     align-content: flex-start;
     gap: 40px;
 }
@@ -94,7 +95,10 @@ li {
     padding-top: 10px ;
 }
 
+.flex-container div {
+    width: 350px;
+    /* flex: ; */
+}
 .recipe,.recipe a {
-    flex: 0;
     background-color: darkred;
 }
