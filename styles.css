@@ -103,6 +103,11 @@ li {
     height: 350px;
     /* flex: ; */
 }
+/*
+flex basis initializes the width of the elements. auto = width of the element 
+flex 1: 1 1 0
+
+ */
 .recipe,.recipe a{
 
     color: black;
