@@ -101,7 +101,6 @@ li {
 .flex-container div {
     width: 350px;
     height: 350px;
-    flex: 1 1 1;
     /* flex: ; */
 }
 .recipe,.recipe a{
