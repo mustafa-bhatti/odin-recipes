@@ -88,17 +88,23 @@ li {
 .flex-container img {
     padding: 0;
     width: 300px;
+    /* margin: 0; */
     
 }
 
 .recipe {
+    padding: 0px;
     padding-top: 10px ;
 }
 
 .flex-container div {
     width: 350px;
+    height: 350px;
+    flex: 1 1 1;
     /* flex: ; */
 }
 .recipe,.recipe a {
-    background-color: darkred;
+
+    color: black;
+    background-color: beige;
 }
